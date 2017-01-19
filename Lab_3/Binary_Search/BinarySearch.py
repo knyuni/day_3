@@ -17,15 +17,16 @@ class binarySearch(list):
 
 	def search(a, b):
 		a = 0
-	    b = len(a)-1
-	    length = False
-	    if node is None:
-	    	return False
-   		else:
-       		if node.data == item:
-           		return True
+		b = len(a)-1
+		length = False
+		if node is None:
+			return False
+		else:
+			if node.data == item:
+				return True
+
        	elif node.data < item:
-           	return self.search(node.right, item)
+       		return self.search(node.right, item)
        	else:
            	return self.search(node.left, item)
 	
