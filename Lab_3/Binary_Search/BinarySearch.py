@@ -1,4 +1,4 @@
-class binary_search(object):
+class binarySearch(list):
 	def __init__(self, data=None, left=None, right=None):
 		self.left = left
         self.right = right
